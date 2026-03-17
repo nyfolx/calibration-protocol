@@ -10,13 +10,13 @@ addEventListener("load", (event) => {
 })
 
 const IMAGES_SRC = [
-	"CUTE.webp",
+	"CUTE.jpg",
 	"DRONE.jpg",
 	"TAIL.png",
 	"PEN.jpg",
 	"RAWR.jpg",
 	"ROCKET.jpg",
-	"SUB.WEBP",
+	"SUB.jpg",
 	"SWIM.jpg",
 ]
 
