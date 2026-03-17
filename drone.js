@@ -81,7 +81,7 @@ async function startCalibration(diff, imgNb) {
 
 		let textDiv = document.createElement("span")
 		textDiv.style.height = "100vh"
-		textDiv.style.width = "100vw"
+		textDiv.style.width = "50vw"
 		textDiv.innerText =
 			overseer["associations"][Object.keys(overseer["associations"])[i]]
 		textDiv.style.fontSize = "20vh"
@@ -173,7 +173,7 @@ function displayChoice(currImage) {
 	// Populate choices container (should be in calibration loop)
 	for (let i = 0; i < nbChoices; i++) {
 		let choiceDivToInsert = document.createElement("div")
-		choiceDivToInsert.style.width = 100 / nbChoices + "vw"
+		choiceDivToInsert.style.width = 50 / nbChoices + "vw"
 		choiceDivToInsert.style.height = "100vh"
 		choiceDivToInsert.onmouseover = function () {
 			this.style.background = "rgba(255, 255, 255, 0.2)"
